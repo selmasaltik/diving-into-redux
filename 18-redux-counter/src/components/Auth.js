@@ -7,11 +7,11 @@ const Auth = () => {
         <form>
           <div className={classes.control}>
             <label htmlFor='email'>Email</label>
-            <input type='email' id='email' />
+            <input type='email' id='email' autoComplete='off' />
           </div>
           <div className={classes.control}>
             <label htmlFor='password'>Password</label>
-            <input type='password' id='password' />
+            <input type='password' id='password' autoComplete='off' />
           </div>
           <button>Login</button>
         </form>
